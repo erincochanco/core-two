@@ -1,0 +1,418 @@
+body{
+	background-color: #231f20;
+}
+
+a{
+	color: white;
+	text-decoration: none;
+}
+
+	a:hover{
+		color: #999ea3;
+	}
+
+a.ph{
+	color:  #e691ba
+}
+	a.ph:hover{
+		color: white;
+	}
+
+a.item{
+	color: white;
+}
+
+a.live {
+	color: #288e44;
+	text-decoration: none;
+}
+	a.live:hover{
+		color: #da7cad;
+	}
+
+.header {
+	margin-top: 60px;
+	display: flex;
+	flex-direction: row;
+	width: 99vw;
+	align-content: center;
+}
+
+.home{
+	display: flex;
+	margin-left: 150px;
+	width: 32.3vw;
+	justify-content: left;
+	font-family: neue-haas-grotesk-display,sans-serif;
+	font-weight: 400;
+	font-style: normal;
+	color: #ffffff;
+	background-color: #231f20;
+}
+
+
+.whph{
+	display: flex;
+	width: 32.3vw;
+	justify-content: center;
+	font-family: neue-haas-grotesk-display,sans-serif;
+	font-weight: 400;
+	font-style: normal;
+	color: white;
+	background-color: #231f20;
+}
+
+
+.read{
+	display: flex;
+	margin-right: 150px;
+	width: 32.3vw;
+	justify-content: right;
+	font-family: neue-haas-grotesk-display,sans-serif;
+	font-weight: 400;
+	font-style: normal;
+	color: #ffffff;
+	background-color: #231f20;
+}
+
+.hello {
+	position: absolute;
+	width: 100vw;
+	text-align: center;
+}
+
+.hello1{
+	position: absolute;
+	margin-top: 160px;
+	width: 100vw;
+	font-family: neue-haas-grotesk-display,sans-serif;
+	font-weight: 700;
+	font-style: normal;
+	justify-content: center;
+	color: white;
+	font-size: 150pt;
+	animation-name: hello1;
+	animation: hello1 2s infinite linear backwards;
+}
+		@keyframes hello1 {
+		0% {transform:translateY(0px);}
+		25% {transform:translateY(20px);}
+		50% {transform:translateY(0px);}
+		100% {transform:translateY(20px);}
+	}
+
+.content{
+	display: flex;
+	flex-wrap: wrap;
+	margin-top: 680px;
+	justify-content: center;
+	width: 100wv;
+	font-family: neue-haas-grotesk-display,sans-serif;
+	font-weight: 400;
+	font-style: normal;
+	font-size: 20px;
+	color: white;
+	margin-left: 200px;
+	margin-right: 200px;
+	column-gap: 60px;
+	row-gap: 100px;
+}
+
+	.rock-garden{
+		display: flex;
+		background-color:#231f20;
+		justify-content: center;
+		align-items: center;
+		border: 1px solid white;
+		width: 15vw;
+		height: 10vh;
+		border-radius: 0px 50px 50px 0px;
+		transform: rotate(10deg);
+		animation:float-translate 2s infinite ease normal;
+	}
+
+		.rock-garden:hover{
+		background-color:white;
+		color: black;
+		}	
+
+	.interview{
+		display: flex;
+		background-color:#231f20;
+		justify-content: center;
+		align-items: center;
+		border: 1px solid white;
+		width: 10vw;
+		height: 18vh;
+		border-radius: 100px;
+		transform: rotate(-10deg);
+		animation:float-translate 2s infinite ease reverse;
+	}
+		.interview:hover{
+		background-color:white;
+		color: black;
+		}	
+
+	.P5-JS{
+		display: flex;
+		background-color:#231f20;
+		justify-content: center;
+		align-items: center;
+		border: 1px solid white;
+		width: 15vw;
+		height: 10vh;
+		border-radius: 50px 50px 50px 50px;
+		transform: rotate(-10deg);
+		animation:float-translate 2s infinite ease normal;
+	}
+
+		.P5-JS:hover{
+		background-color:white;
+		color: black;
+		}	
+
+	.Hover{
+		display: flex;
+		background-color:#231f20;
+		justify-content: center;
+		align-items: center;
+		border: 1px solid white;
+		width: 10vw;
+		height: 18vh;
+		border-radius:100px;
+		transform: rotate(10deg);
+		animation:float-translate 2s infinite ease reverse;
+	}
+		.Hover:hover{
+		background-color:white;
+		color: black;
+		}	
+
+	.Wiki{
+		display: flex;
+		background-color:#231f20;
+		justify-content: center;
+		align-items: center;
+		border: 1px solid white;
+		width: 10vw;
+		height: 18vh;
+		border-radius: 100px;
+		transform: rotate(-10deg);
+		animation:float-translate 2s infinite ease normal;
+	}
+
+		.Wiki:hover{
+		background-color:white;
+		color: black;
+		}	
+
+	.Life{
+		display: flex;
+		background-color:#231f20;
+		justify-content: center;
+		align-items: center;
+		border: 1px solid white;
+		width: 15vw;
+		height: 10vh;
+		border-radius: 50px 50px 50px 50px;
+		transform: rotate(10deg);
+		animation:float-translate 2s infinite ease reverse;
+	}
+
+		.Life:hover{
+		background-color:white;
+		color: black;
+		}	
+
+
+	.CSS-ani{
+		display: flex;
+		background-color:#231f20;
+		justify-content: center;
+		align-items: center;
+		border: 1px solid white;
+		width: 15vw;
+		height: 10vh;
+		border-radius: 0px 50px 50px 0px;
+		transform: rotate(-10deg);
+		animation:float-translate 2s infinite ease normal;
+	}
+
+		.CSS-ani:hover{
+		background-color:white;
+		color: black;
+		}	
+
+	.JS-sketch{
+		display: flex;
+		background-color:#231f20;
+		justify-content: center;
+		align-items: center;
+		border: 1px solid white;
+		width: 10vw;
+		height: 18vh;
+		border-radius: 100px;
+		animation:float-translate 2s infinite ease reverse;
+
+	}
+
+		.JS-sketch:hover{
+		background-color:white;
+		color: black;
+		}	
+
+
+	@keyframes float-translate{
+    	0% { transform: translate(0,  0px);}
+    	20%  { transform: translate(0, 15px); }
+    	40%   { transform: translate(0, 0px); } 
+    	80%   { transform: translate(0, -15px); }   
+    	100%   { transform: translate(0, 0px); }  
+}	
+
+
+
+.black{
+	display: flex;
+	height: 40vh;
+	width: 100vw;
+	background-color:#231f20;
+}
+
+.end {
+	display: flex;
+	background-color: whitesmoke;
+	height: 5vh;
+	justify-content: center;
+	align-items: center;
+
+}
+
+.end-text{
+	margin-top: 5px;
+	display: flex;
+	align-content: center;
+	font-family: neue-haas-grotesk-display,sans-serif;
+	font-weight: 400;
+	font-style: normal;
+	font-size: 20px;
+	animation: end 8s infinite linear reverse;
+}
+
+@keyframes end {
+	0% {transform: translateX(100vw);}
+	99% {opacity: 100%;}
+	100% {opacity: 0%;}
+}
+
+
+@media screen and (max-width: 500px){
+	.home{
+		margin-left: 30px;
+	}
+	.read{
+		margin-right: 30px;
+	}
+	.hello1{
+		font-size: 90pt;
+	}
+	.content{
+		margin-top: 550px;
+		grid-row-gap: 70px;
+	}
+		.rock-garden{
+			width: 40vw;
+			height: 10vh;
+			border-radius: 50px;
+		}
+
+		.interview{
+			width: 40vw;
+			height: 10vh;
+			border-radius: 50px;
+		}
+
+		.P5-JS{
+			width: 40vw;
+			height: 10vh;
+			border-radius: 50px;
+		}
+		.Hover{
+			width: 40vw;
+			height: 10vh;
+			border-radius: 50px;
+		}
+		.Wiki{
+			width: 40vw;
+			height: 10vh;
+			border-radius: 50px;
+		}
+		.Life{
+			width: 40vw;
+			height: 10vh;
+			border-radius: 50px;
+		}
+		.CSS-ani{
+			width: 40vw;
+			height: 10vh;
+			border-radius: 50px;
+		}
+		.JS-sketch{
+			width: 40vw;
+			height: 10vh;
+			border-radius: 50px;
+		}
+.black{
+	height: 20vh;
+}
+.end-text{
+	font-size: 17px;
+}
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
