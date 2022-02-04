@@ -4,12 +4,17 @@ body{
 
 .frame{
 	display: flex;
+	flex-direction: column;
 	justify-content: center;
 	align-items: center;
 	height: 100vh;
 }
 
-.img{
-	display: flex;
-	height: 80vh
+.text{
+	color: white;
+	width: 100vw;
+	text-align: center;
+	font-family: helvetica;
+	margin-bottom: 20px;
+
 }
