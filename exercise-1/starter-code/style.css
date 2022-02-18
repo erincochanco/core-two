@@ -1,0 +1,124 @@
+/* load your fonts here with @font-face */
+
+@font-face {
+  font-family: IBMPlexSans-Bold;
+  src: url(fonts/IBMPlexSans-Bold.woff);url(fonts/IBMPlexSans-Bold.woff2);
+}
+
+@font-face {
+  font-family: IBMPlexSans-Regular;
+  src: url(fonts/IBMPlexSans-Regular.woff);url(fonts/IBMPlexSans-Regular.woff2)
+}
+/* add styling here */
+
+body {
+  display: flex;
+  margin-left: 20rem;
+  margin-right: 20rem;
+  margin-top: 10rem;
+  background-color: #fef9f2;
+  font-family: IBMPlexSans-Regular;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 1.3rem
+}
+
+span{
+  background-color: #ffe7da;
+  border: #b26755 solid .1rem;
+  font-size: 2rem;
+  width: 5rem;
+}
+
+h1 {
+  font-family: IBMPlexSans-Bold;
+  color: #6d5f69;
+  border: 0;
+}
+
+h2 {
+  color: #494948;
+  font-family: IBMPlexSans-Bold;
+}
+
+h3{
+  font-family: IBMPlexSans-bold;
+  color: #494948;
+  border-bottom: #dcab9f solid .2rem;
+}
+
+.frenchie-pic{
+  display: flex;
+  float: right;
+  margin: 1rem;
+  border-radius: 1rem;
+}
+
+blockquote{
+  display: flex;
+  height:6rem ;
+  width: 40rem;
+  background-color: #ffe7da;
+  align-items: center;
+  justify-content: center;
+}
+
+
+.flex-container{
+  display: flex;
+  flex-direction: row;
+  column-gap: 3rem;
+}
+  .one{
+    display:flex;
+    align-items: center;
+    justify-content: center;
+    width:14rem;
+    height:6rem;
+    background-color: #ffe7da;
+    border: #b26755 solid .1rem;
+  }
+
+  .two{
+    display:flex;
+    align-items: center;
+    margin-top: 2rem;
+    justify-content: center;
+    width:14rem;
+    height: 6rem;
+    background-color: #ffe7da;
+    border: #b26755 solid .1rem;
+  }
+
+  .three{
+    display:flex;
+    align-items: center;
+    justify-content: center;
+    width:14rem;
+    height: 6rem;
+    background-color: #ffe7da;
+    border: #b26755 solid .1rem;
+  }
+
+.author {
+  color: #494948;
+  background: linear gradient(60deg, #dcab9f, #6d5262);
+  background-clip: text;
+}
+
+a {
+  background: -webkit-linear-gradient(45deg, #dcab9f, #6d5262);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+a:link{
+  text-decoration: underline;
+}
+
+@media (min-width: 551px) {
+  body{
+    display: flex;
+    width: 10rem;
+  }
+}
