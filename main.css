@@ -135,7 +135,7 @@ a.live:hover {
   row-gap: 100px;
 }
 
-.project-1 {
+.project-one {
   display: flex;
   background-color: #288e44;
   justify-content: center;
@@ -148,11 +148,11 @@ a.live:hover {
   animation: float-rotate1 2s infinite ease normal;
 }
 
-.rock-garden:hover {
+.project-one:hover {
   background-color: #17488d;
 }
 
-.project2 {
+.project-two {
   display: flex;
   background-color: #e691ba;
   justify-content: center;
@@ -164,7 +164,7 @@ a.live:hover {
   transform: rotate(-10deg);
   animation: float-rotate2 2s infinite ease normal;
 }
-.interview:hover {
+.project-two:hover {
   background-color: #eeba1d;
 }
 
