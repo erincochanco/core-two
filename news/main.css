@@ -1,0 +1,183 @@
+.hiking-image {
+  position: absolute;
+  width: 100vw;
+}
+
+.header {
+  margin-top: 1.2rem;
+  display: grid;
+  position: absolute;
+  width: 100vw;
+  grid-template-columns: 1fr 1fr 1fr;
+  font-family: neue-haas-grotesk-text, sans-serif;
+  font-weight: 400;
+  font-style: normal;
+  filter: drop-shadow(5px 3px 4px #000000);
+}
+
+.burger {
+  grid-column-start: 1;
+  width: 1.3rem;
+  justify-self: center;
+  margin-left: 1rem;
+}
+
+.news {
+  grid-column-start: 2;
+  color: white;
+  font-size: 1.2rem;
+  justify-self: center;
+}
+
+.search {
+  grid-column-start: 3;
+  width: 1.3rem;
+  justify-self: right;
+  margin-right: 1rem;
+}
+
+.header-text {
+  position: absolute;
+  margin-top: 23rem;
+  margin-left: 10rem;
+  width: 60%;
+  font-family: neue-haas-grotesk-text, sans-serif;
+  font-style: normal;
+  filter: drop-shadow(5px 3px 4px #000000);
+}
+.headline {
+  color: white;
+  font-size: 4rem;
+  font-weight: 700;
+}
+.subtitle {
+  margin-top: 0.3rem;
+  color: white;
+  font-weight: 100;
+  font-size: 2rem;
+}
+
+nav {
+  position: absolute;
+  margin-top: 50rem;
+  display: grid;
+  width: 100vw;
+  grid-template-rows: repeat(9, 11%);
+  font-family: neue-haas-grotesk-text, sans-serif;
+  font-weight: 400;
+  font-style: normal;
+  color: black;
+  font-size: 1.1rem;
+}
+
+.for-you {
+  grid-column-start: 2;
+}
+
+.politics {
+  grid-column-start: 3;
+}
+
+.business {
+  grid-column-start: 4;
+}
+
+.tech {
+  grid-column-start: 5;
+}
+.opinion {
+  grid-column-start: 6;
+}
+
+.art {
+  grid-column-start: 7;
+}
+
+.sports {
+  grid-column-start: 8;
+}
+
+.news-one {
+  margin-top: 55rem;
+  margin-left: 10rem;
+  position: absolute;
+  display: grid;
+  grid-template-columns: 65% 35%;
+  grid-template-rows: repeat(8, 12.5%);
+  width: 80%;
+  font-family: neue-haas-grotesk-text, sans-serif;
+  font-weight: 400;
+  font-style: normal;
+}
+
+.news-two {
+  margin-top: 75rem;
+  margin-left: 10rem;
+  position: absolute;
+  display: grid;
+  grid-template-columns: 65% 35%;
+  grid-template-rows: repeat(8, 12.5%);
+  width: 80%;
+  font-family: neue-haas-grotesk-text, sans-serif;
+  font-weight: 400;
+  font-style: normal;
+}
+
+.news-three {
+  margin-top: 95rem;
+  margin-left: 10rem;
+  position: absolute;
+  display: grid;
+  grid-template-columns: 65% 35%;
+  grid-template-rows: repeat(8, 12.5%);
+  width: 80%;
+  font-family: neue-haas-grotesk-text, sans-serif;
+  font-weight: 400;
+  font-style: normal;
+}
+
+h1 {
+  font-weight: 700;
+  font-size: 3rem;
+  grid-row-start: 1;
+}
+
+h2 {
+  font-weight: 100;
+  font-size: 2rem;
+  grid-row-start: 4;
+}
+
+h3 {
+  font-weight: 100;
+  font-size: 1rem;
+  grid-row-start: 6;
+}
+.color {
+  color: cc512f;
+}
+
+.color-two {
+  color: blue;
+}
+
+.color-three {
+  color: rgb(10, 173, 45);
+}
+
+hr {
+  position: absolute;
+  margin-top: 23rem;
+  width: 80%;
+  margin-left: 2rem;
+}
+
+.punch {
+  margin-top: 2rem;
+  width: 20rem;
+}
+
+.eyes {
+  margin-top: 2.2rem;
+  width: 20rem;
+}
