@@ -168,7 +168,7 @@ a.live:hover {
   background-color: #eeba1d;
 }
 
-.P5-JS {
+.project-three {
   display: flex;
   background-color: #17488d;
   justify-content: center;
@@ -181,7 +181,7 @@ a.live:hover {
   animation: float-rotate1 2s infinite ease normal;
 }
 
-.P5-JS:hover {
+.project-three:hover {
   background-color: #288e44;
 }
 
