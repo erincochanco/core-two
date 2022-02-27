@@ -89,3 +89,35 @@ a {
 a:hover {
   color: #cc1d53;
 }
+
+@media only screen and (max-width: 1060px) {
+
+  .container{
+    display: block;
+    margin: auto;
+    width: 50%;
+  }
+
+  .header{
+    margin-top: 7vh;
+    margin-bottom: 10vh;
+  }
+
+  .description{
+    display:none
+  }
+
+  .pink-container{
+   display: none;
+  }
+
+  .work{
+    margin: auto;
+    text-align: center;
+  }
+
+
+
+
+  }
+}
