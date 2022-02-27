@@ -1,8 +1,9 @@
-@media only screen and (max-width: 390px) .hiking-image {
-  position: absolute;
-  width: 100vw;
+@media only screen and (max-width: 390px) {
+  .hiking-image {
+    position: absolute;
+    width: 100vw;
+  }
 }
-
 .hiking-image {
   position: absolute;
   width: 100vw;
