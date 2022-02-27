@@ -12,6 +12,10 @@ body {
   width: 44vw;
 }
 
+.logo {
+  width: 470px;
+}
+
 .description {
   position: absolute;
   margin-top: 70vh;
@@ -91,33 +95,39 @@ a:hover {
 }
 
 @media only screen and (max-width: 1060px) {
-
-  .container{
+  .container {
     display: block;
     margin: auto;
     width: 50%;
   }
 
-  .header{
+  .header {
     margin-top: 7vh;
     margin-bottom: 10vh;
+    width: 100px;
   }
 
-  .description{
-    display:none
+  .description {
+    display: none;
   }
 
-  .pink-container{
-   display: none;
+  .pink-container {
+    display: none;
   }
 
-  .work{
+  .work {
     margin: auto;
+    width: 100%;
     text-align: center;
   }
+  .logo {
+    width: 400px;
+  }
+}
 
-
-
-
+@media only screen and (max-width: 390px) {
+  .logo {
+    width: 200px;
+    margin: 0;
   }
 }
