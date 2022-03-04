@@ -1,0 +1,78 @@
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>The Room</title>
+</head>
+
+<body onload="move('theDiv')">
+
+    <div id="theDiv" class="theDiv"> <img src="assets/ _welcome.png" class="welcome" height="200px"></div>
+
+    <script>
+        var dragValue;
+        function move(id) {
+            var element = document.getElementById("theDiv");
+            element.style.position = "absolute";
+            element.onmousedown = function () {
+                dragValue = element;
+            }
+        }
+        document.onmouseup = function (e) {
+            dragValue = null;
+        }
+        document.onmousemove = function (e) {
+            var x = e.pageX;
+            var y = e.pageY;
+
+            dragValue.style.left = x + "px";
+            dragValue.style.top = y + "px";
+        }
+
+    </script>
+
+    <script src="myscripts.js"></script>
+</body>
+
+</html>
+
+
+-----
+
+<!doctype html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>TheRoom&trade;</title>
+    <link rel="stylesheet" href="//code.jquery.com/ui/1.13.1/themes/base/jquery-ui.css">
+    <link rel="stylesheet" href="the-room.css">
+
+    <style>
+        #draggable {
+            width: 150px;
+            height: 150px;
+            padding: 0.5em;
+        }
+    </style>
+    <script src="https://code.jquery.com/jquery-3.6.0.js"></script>
+    <script src="https://code.jquery.com/ui/1.13.1/jquery-ui.js"></script>
+    <script>
+        $(function () {
+            $("#draggable").draggable();
+        });
+    </script>
+</head>
+
+<body>
+
+    <div id="draggable" class="ui-widget-content">
+        <img src="assets/ _welcome.png" class="welcome">
+    </div>
+
+</body>
+
+</html>

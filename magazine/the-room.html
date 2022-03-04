@@ -1,0 +1,42 @@
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>The Room</title>
+    <link rel="stylesheet" href="the-room.css">
+</head>
+
+<body onload="move('theDiv')">
+
+    <div id="theDiv" class="theDiv"> 
+        <img src="assets/ _welcome.png" class="welcome"> 
+    </div>
+
+
+    <script>
+        var dragValue;
+        function move(id) {
+            var element = document.getElementById("theDiv"); 
+            element.style.position = "absolute";
+            element.onmousedown = function () {
+                dragValue = element;
+            }
+        }
+        document.onmouseup = function (e) {
+            dragValue = null;
+        }
+        document.onmousemove = function (e) {
+            var x = e.pageX;
+            var y = e.pageY;
+
+            dragValue.style.left = x + "px";
+            dragValue.style.top = y + "px";
+        }
+
+    </script>
+
+</body>
+
+</html>
