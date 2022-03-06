@@ -17,17 +17,30 @@ body {
   align-items: center;
 }
 
-.myDiv {
-  display: flex;
-}
-.cookie {
-  display: inline;
+.cookie-contain {
+  position: relative;
+  width: 8em;
   height: 8em;
 }
-.writing {
-  display: inline;
-  height: 7em;
+
+.cookie-contain img {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 8em;
+  height: 8em;
+  object-fit: contain;
 }
+
+.cookie {
+  opacity: 1;
+  transition: 0.3s ease-in-out all;
+}
+
+.hide {
+  opacity: 0;
+}
+
 .hidden {
   display: none;
 }
@@ -42,6 +55,10 @@ button {
   display: flex;
   justify-content: center;
   align-items: center;
+}
+
+.logo-head {
+  height: 7em;
 }
 
 .content-container {
@@ -111,15 +128,16 @@ button {
   margin-right: 1em;
 }
 
+.one {
+  display: flex;
+  height: 5em;
+}
+
 .space {
   display: flex;
   flex-direction: row;
   flex-wrap: wrap;
   height: 22%;
-}
-
-.one {
-  height: 13%;
 }
 
 .tag {
@@ -167,4 +185,59 @@ button {
 
 a {
   text-decoration: none;
+}
+
+@media only screen and (max-width: 390px) {
+  .cookie-contain {
+    display: none;
+  }
+  .left {
+    display: none;
+  }
+
+  .logo {
+    margin-left: 17%;
+  }
+
+  .logo-head {
+    height: 6em;
+  }
+
+  .content-container {
+    flex-direction: column;
+  }
+
+  .middle {
+    margin-top: 10vh;
+    width: 100vw;
+    font-size: 20px;
+  }
+  .sub {
+    font-size: 18px;
+  }
+
+  .peggy {
+    width: 60vw;
+  }
+
+  .right {
+    margin-left: 2.2em;
+    margin-top: 4em;
+    width: 100vw;
+  }
+
+  .tag {
+    font-size: 1em;
+    margin-left: 0;
+    margin-bottom: 0.5em;
+  }
+
+  .space {
+    margin-bottom: 2em;
+  }
+  .image {
+    display: flex;
+    margin: 0;
+    height: 5em;
+  }
 }

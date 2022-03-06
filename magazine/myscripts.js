@@ -1,10 +1,18 @@
+
+
+// var x = document.getElementById("cookie");
+// const container = document.querySelector('.cookie-contain');
+const cookie = document.querySelector('.cookie');
+
 function myFunction() {
-  var x = document.getElementById("cookie");
-  if (x.style.display === "none") {
-    x.style.display = "block";
-  } else {
-    x.style.display = "none";
-  }
+  // if (cookie.style.display === "none") {
+  //   cookie.style.display = "block";
+  // } else {
+  //   cookie.style.display = "none";
+  // }
+  
+cookie.classList.toggle('hide')
+
 }
 
 
