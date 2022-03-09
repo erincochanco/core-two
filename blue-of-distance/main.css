@@ -1,0 +1,100 @@
+@font-face {
+  font-family: "Menlo Regular";
+  font-style: normal;
+  font-weight: normal;
+  src: local("Menlo Regular"), url("Menlo-Regular.woff") format("woff");
+}
+
+body {
+  margin: 0;
+  display: inline;
+}
+
+.contain {
+  font-family: Menlo Regular;
+  font-weight: 700;
+  display: flex;
+  width: 1950px;
+  height: 844px;
+  flex-wrap: wrap;
+  flex-direction: row;
+}
+
+.two-arrow {
+  position: absolute;
+  margin-left: 390px;
+  animation-name: arrow;
+  animation-duration: 1s;
+  animation-timing-function: ease-in-out;
+  animation-iteration-count: infinite;
+}
+.three-arrow {
+  position: absolute;
+  margin-left: 780px;
+  animation-name: arrow;
+  animation-duration: 1s;
+  animation-timing-function: ease-in-out;
+  animation-iteration-count: infinite;
+}
+.four-arrow {
+  position: absolute;
+  margin-left: 1170px;
+  animation-name: arrow;
+  animation-duration: 1s;
+  animation-timing-function: ease-in-out;
+  animation-iteration-count: infinite;
+}
+
+.five-arrow {
+  position: absolute;
+  margin-left: 1560px;
+  animation-name: arrow;
+  animation-duration: 1s;
+  animation-timing-function: ease-in-out;
+  animation-iteration-count: infinite;
+}
+.ten-arrow {
+  position: absolute;
+  margin-top: 844px;
+  margin-left: 1170px;
+  animation-name: arrow;
+  animation-duration: 1s;
+  animation-timing-function: ease-in-out;
+  animation-iteration-count: infinite;
+}
+.nine-arrow {
+  position: absolute;
+  margin-top: 844px;
+  margin-left: 1560px;
+  animation-name: arrow;
+  animation-duration: 1s;
+  animation-timing-function: ease-in-out;
+  animation-iteration-count: infinite;
+}
+.eight-arrow {
+  position: absolute;
+  margin-top: 844px;
+  margin-left: 780px;
+  animation-name: arrow;
+  animation-duration: 1s;
+  animation-timing-function: ease-in-out;
+  animation-iteration-count: infinite;
+}
+.seven-arrow {
+  position: absolute;
+  margin-top: 844px;
+  margin-left: 390px;
+  animation-name: arrow;
+  animation-duration: 1s;
+  animation-timing-function: ease-in-out;
+  animation-iteration-count: infinite;
+}
+
+@keyframes arrow {
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 100%;
+  }
+}
