@@ -1,6 +1,6 @@
 console.log('test');
 
-fetch('https://api.airtable.com/v0/appiO928XGEGes4rb/bread', {
+fetch('https://api.airtable.com/v0/appiO928XGEGes4rb/foods', {
         headers: {
             Authorization: 'Bearer keyyCrGsXRgd04XgN',
 
@@ -10,13 +10,22 @@ fetch('https://api.airtable.com/v0/appiO928XGEGes4rb/bread', {
     .then(data => {
         // console.log(data);
 
-        const bread = document.querySelector('.breads');
+        const foods = document.querySelector('.food');
 
-        console.log(bread);
+        console.log(foods);
 
-        data.records.forEach(origin => {
-            console.log(origin);
-            bread.innerHTML += `<h2> ${origin.fields.origin} </h2> <h3>${origin.fields.origin}</h3>`;
+        data.records.forEach(food => {
+            console.log(food);
+            foods.innerHTML += `
+            <div class="food">
+            <h2> ${food.fields.food} </h2>
+            <h3>${food.fields.allergens}</h3>
+            <h3>${food.fields.frequency}</h3>
+            <h3>${food.fields.reaction}</h3>
+            <h3>${food.fields.allergens}</h3>
+            <img src="${food.fields.illustration[0]}" width'200'/>
+            `
+            ;
         });
 
     });
