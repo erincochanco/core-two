@@ -17,15 +17,15 @@ fetch('https://api.airtable.com/v0/appiO928XGEGes4rb/foods', {
         data.records.forEach(food => {
             console.log(food);
             foods.innerHTML += `
-            <div class="food">
-            <h2> ${food.fields.food} </h2>
+            <div class="foods">
+            <h2>${food.fields.food} </h2>
+            <img src="${food.fields.illustration[0].thumbnails.large.url}" class="illus"/>
             <h3>${food.fields.allergens}</h3>
             <h3>${food.fields.frequency}</h3>
             <h3>${food.fields.reaction}</h3>
             <h3>${food.fields.allergens}</h3>
-            <img src="${food.fields.illustration[0]}" width'200'/>
-            `
-            ;
+            </div>
+            `;
         });
 
     });

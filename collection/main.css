@@ -1,3 +1,90 @@
+html,
+body {
+  margin: 0;
+  padding: 0;
+}
+
+body{
+font-family: antique-olive, sans-serif;
+font-style: normal;
+font-weight: 300;
+}
+
+.homepage-container{
+    display: flex
+}
+
+.homepage{
+    position: absolute;
+    width: 100%;
+}
+
+.welcome{
+    position: absolute;
+    margin-top: 35%;
+    margin-left: 17%;
+    width: 15%;
+    z-index: 2;
+    animation-duration: 0.8s;
+    animation-name: animate-fade;
+    animation-fill-mode: backwards;
+}
+
+@keyframes animate-fade {
+    0% { opacity: 0; }
+    100% { opacity: 1; }
+  }
+
+  .background{
+    position: absolute;
+    width: 100vw;
+}
+
+.container{
+    margin-top: 100vh;
+    margin-left:auto ;
+    margin-right:auto ;
+    width: 100%;
+    max-width: 800px;
+    padding: 20px;
+}
+
 .food{
+    margin-top: 180px;
+    margin-left: 30px;
     display: flex;
+    flex-wrap: wrap;
+    gap: 40px;
+    width: 100%;
+    height: 400px;
+    max-width: 800px;
+    overflow: scroll;
+}
+
+.foods {
+    box-shadow: 0 4px 8px 0 hsla(300, 4%, 80%, 0.3);
+    background-color: white;
+    width: 200px;
+    padding: 10px;
+    border-radius: 2px;
+    position: relative;
+    text-align: center;
+  }
+
+.illus{
+ width: 90px;
+}
+
+
+  
+h2{
+    font-family: antique-olive, sans-serif;
+    font-style: normal;
+    font-weight: 700;
+}
+
+h3{
+    font-family: antique-olive, sans-serif;
+    font-style: normal;
+    font-weight: 400;
 }
