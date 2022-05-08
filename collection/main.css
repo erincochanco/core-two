@@ -61,6 +61,12 @@ font-weight: 300;
     overflow: scroll;
 }
 
+.elements{
+    position: absolute;
+    margin-top: 50px;
+    margin-left: 300px;
+}
+
 .foods {
     box-shadow: 0 4px 8px 0 hsla(300, 4%, 80%, 0.3);
     background-color: white;
@@ -74,8 +80,6 @@ font-weight: 300;
 .illus{
  width: 90px;
 }
-
-
   
 h2{
     font-family: antique-olive, sans-serif;

@@ -12,14 +12,29 @@
 </head>
 <body>
 
+
 <div class="homepage-container">
     <img src="archive-homepage_4.png" class="homepage">
     <img src="welcome.png" class="welcome">
 </div>
-    
+
 <div class="content-container">
     <img src="background.png" class="background">
     <div class="container">
+            <div class="elements">
+                <div class="dropdown-container">
+                  <label for="my-select">Filter Allergen:</label>
+                  <select name="my-select" id="select" onchange="handleDropdown()">
+                    <option selected value="all">All</option>
+                    <option value="Gluten">Gluten</option>
+                    <option value="Soy">Soy</option>
+                    <option value="Nuts">Nuts</option>
+                    <option value="Dairy">Dairy</option>
+                    <option value="Corn">Corn</option>
+                    <option value="Egg">Egg</option>
+                  </select>
+                </div>
+              </div>
     <div class="food"></div>
     </div>
 </div>

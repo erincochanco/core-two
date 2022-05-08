@@ -1,0 +1,83 @@
+body{
+    background-color: whitesmoke;
+    padding: 0;
+    margin: 0;
+}
+
+.header{
+    width: 80%;
+    text-align: center;
+    margin-top: 5%;
+    margin-right: 10%;
+    margin-left: 10%;
+    border: 1px solid #000;
+}
+
+.text{
+    padding: .5%;
+    font-family: "Monaco", monospace;
+    font-style: normal;
+    font-size: 1.3em;
+}
+
+.grid-container{
+    display: grid;
+    grid-template-columns: repeat(25, 1fr);  
+    margin-right: 10%;
+    margin-left: 10%;
+
+}
+.unit{
+    font-family: "Monaco", monospace;
+    font-style: normal;
+    font-size: 2em;
+    text-align: center;
+}
+
+.unit-one{
+    font-family: "Monaco", monospace;
+    font-style: normal;
+    font-size: 2em;
+    text-align: center;
+    animation-duration: 3s;
+    animation-name: fadeIn;
+}
+.unit-two{
+    font-family: "Monaco", monospace;
+    font-style: normal;
+    font-size: 2em;
+    text-align: center;
+    animation-delay: 0s;
+    animation-duration: 1s;
+    animation-name: fadeIn;
+}
+.unit-three{
+    font-family: "Monaco", monospace;
+    font-style: normal;
+    font-size: 2em;
+    text-align: center;
+    animation-delay: 1s;
+    animation-duration: 3s;
+    animation-name: fadeIn;
+}
+
+
+.footer{
+    width: 80%;
+    text-align: center;
+    margin-right: 10%;
+    margin-left: 10%;
+    border: 1px solid #000;
+}
+
+.text-2{
+    padding: .5%;
+    font-family: "Monaco", monospace;
+    font-style: normal;
+    font-size: 1em;
+}
+
+@keyframes fadeIn {
+    0% {opacity:0;}
+    100% {opacity:1;}
+  }

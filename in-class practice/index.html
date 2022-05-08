@@ -1,0 +1,32 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="main.css">
+    <link rel="stylesheet" href="https://use.typekit.net/lrv4dig.css">
+    <title>R.I.P.</title>
+</head>
+<body>
+    <h1>Interactive Elements in HTML</h1>
+    <h2>An exploration into filtering and sorting data through interactive HTML Elements</h2>
+    <div class="elements">
+        <!-- add interaction elements here -->
+        <div>
+            <label for="type"> Filter by instrument type:</label>
+            <select id="type" onchange="handleDropdown()">
+            <option value="string">String</option>
+            <option value="bass">Bass</option>
+            <option value="percussion">Percussion</option>
+            <option value="accessories">Accessories</option>
+        </select>
+        </div>
+    </div>
+
+    <div class="content">
+        <!-- add content here via javascript -->
+    </div>
+    <script src="data.js"></script>
+    <script src="script.js"></script>
+</body>
+</html>
