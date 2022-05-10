@@ -1,7 +1,16 @@
 body{
-    background-color: whitesmoke;
     padding: 0;
     margin: 0;
+    min-height:100%;
+    background: 
+     linear-gradient(rgb(222, 251, 179) 0%, rgb(254, 255, 194) 25%, rgb(0, 255, 68) 50%,rgb(254, 255, 194) 75%,rgb(222, 251, 179) 100%  ) 
+     0 0/100% 200%;
+     animation: a 2s linear infinite;
+  }
+  
+  @keyframes a {
+    to {background-position:0 -200%}
+  }
 }
 
 .grid-container:hover{
@@ -14,6 +23,7 @@ body{
     margin-top: 80%;
     margin-right: 10%;
     margin-left: 10%;
+    margin-bottom: 10%;
     border: 1px solid #000;
 }
 
@@ -23,31 +33,28 @@ body{
     font-style: normal;
     font-size: 1.3em;
 }
+.demo{
+    margin-right: 10%;
+    margin-left: 10%;
+    font-family: "Monaco", monospace;
+    font-style: normal;
+    font-size: 1em;
+    text-align: center;
+}
 
 .grid-container{
     display: grid;
     grid-template-columns: repeat(7, 1fr); 
-    padding: 10%; 
+    margin-bottom: 10%;
     margin-right: 10%;
     margin-left: 10%;
 }
-
-
 
 .unit{
     font-family: "Monaco", monospace;
     font-style: normal;
     font-size: 2em;
     text-align: center;
-}
-
-.unit-one{
-    font-family: "Monaco", monospace;
-    font-style: normal;
-    font-size: 2em;
-    text-align: center;
-    animation-duration: 3s;
-    animation-name: fadeIn;
 }
 
 
@@ -63,12 +70,9 @@ body{
 }
 
 .button{
-    background-color: #4CAF50; 
+    background-color: #000; 
+    font-family: "Monaco", monospace;
+    font-style: normal;
     border: none;
     color: white;
 }
-
-@keyframes fadeIn {
-    0% {opacity:0;}
-    100% {opacity:1;}
-  }
