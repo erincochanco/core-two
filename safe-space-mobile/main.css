@@ -4,10 +4,14 @@ body{
     margin: 0;
 }
 
+.grid-container:hover{
+    cursor: pointer;
+}
+
 .header{
     width: 80%;
     text-align: center;
-    margin-top: 5%;
+    margin-top: 80%;
     margin-right: 10%;
     margin-left: 10%;
     border: 1px solid #000;
@@ -22,29 +26,49 @@ body{
 
 .grid-container{
     display: grid;
-    grid-template-columns: repeat(25, 1fr);  
+    grid-template-columns: repeat(7, 1fr); 
+    padding: 10%; 
     margin-right: 10%;
     margin-left: 10%;
 }
+
+
+
 .unit{
     font-family: "Monaco", monospace;
     font-style: normal;
     font-size: 2em;
     text-align: center;
-    border: 1px solid #000;
 }
+
+.unit-one{
+    font-family: "Monaco", monospace;
+    font-style: normal;
+    font-size: 2em;
+    text-align: center;
+    animation-duration: 3s;
+    animation-name: fadeIn;
+}
+
 
 .footer{
     width: 80%;
+    font-family: "Monaco", monospace;
+    font-style: normal;
+    text-align: center;
     text-align: center;
     margin-right: 10%;
     margin-left: 10%;
-    border: 1px solid #000;
+    /* border: 1px solid #000; */
 }
 
-.text-2{
-    padding: .5%;
-    font-family: "Monaco", monospace;
-    font-style: normal;
-    font-size: 1em;
+.button{
+    background-color: #4CAF50; 
+    border: none;
+    color: white;
 }
+
+@keyframes fadeIn {
+    0% {opacity:0;}
+    100% {opacity:1;}
+  }
