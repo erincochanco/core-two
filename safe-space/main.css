@@ -4,6 +4,10 @@ body{
     margin: 0;
 }
 
+.grid-container:hover{
+    cursor: pointer;
+}
+
 .header{
     width: 80%;
     text-align: center;
