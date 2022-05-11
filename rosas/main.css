@@ -14,6 +14,15 @@ body{
 
 }
 
+.footer{
+    margin-top: 10%;
+    font-family: neue-haas-grotesk-display, sans-serif;
+    font-style: normal;
+    text-align: center;
+    font-size: 1em;
+
+}
+
 .text{
     font-family: neue-haas-grotesk-display, sans-serif;
     font-style: normal;
@@ -34,7 +43,7 @@ body{
     grid-template-columns: repeat(5, 1fr); 
 }
 
-.bukas:hover{
+.grid-container:hover{
     cursor: pointer;
 }
 
@@ -44,13 +53,16 @@ body{
     }
 
     .unit{
-        font-size:2em;
+        font-size:3em;
     }
 .container{
     margin-top: 70%;
 }
+
+.footer{
+    font-size: .5em;
+}
     .grid-container{
-        margin: 0 auto;
-        width: 50%;
+        margin: 0;
     }
 }
