@@ -42,29 +42,37 @@ body{
 
 .top-frame{
     position: absolute;
-    width: 1015px;
-    margin-left: 15%;
+    width: 700px;
+    margin-left: 27%;
 }
 
 .left-frame{
     position: absolute;
-    height: 440px;
-    margin-top: 4%;
-    margin-left: 15%;
+    height: 435px;
+    margin-top: 2.2%;
+    margin-left: 23%;
 }
 
 .right-frame{
     position: absolute;
-    height: 450px;
-    margin-top: 3%;
-    margin-left: 82%;
+    height: 440px;
+    margin-top: 2%;
+    margin-left: 74%;
+}
+
+.bottom-frame{
+    position: absolute;
+    width: 700px;
+    margin-top: 1%;
+    margin-left: 27%;
+    
 }
 
 .grid-container{
     display: grid;
     height: 35px;
-    width: 900px;
-    grid-template-columns: repeat(25, 1fr);  
+    width: 700px;
+    grid-template-columns: repeat(15, 1fr);  
     margin-right: 10%;
     margin-left: 10%;
 
