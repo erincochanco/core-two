@@ -1,0 +1,56 @@
+body{
+    background: 
+    linear-gradient(rgb(255, 221, 226) 0%, rgb(255, 194, 214) 25%, rgb(254, 179, 219) 50%,rgb(255, 194, 214) 75%,rgb(255, 221, 226) 100%  ) 
+    0 0/100% 200%;
+    animation: a 5s linear infinite;
+}
+
+@keyframes a {
+    to {background-position:0 -200%}
+  }
+
+.container{
+    padding: 10%;
+
+}
+
+.text{
+    font-family: neue-haas-grotesk-display, sans-serif;
+    font-style: normal;
+    text-align: center;
+    font-size: 5em;
+}
+
+.unit{
+    font-family: neue-haas-grotesk-display, sans-serif;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 10em;
+}
+
+.grid-container{
+    text-align: center;
+    display: grid;
+    grid-template-columns: repeat(5, 1fr); 
+}
+
+.bukas:hover{
+    cursor: pointer;
+}
+
+@media screen and (max-width: 390px){
+    .text{
+        font-size: 1em;
+    }
+
+    .unit{
+        font-size:2em;
+    }
+.container{
+    margin-top: 70%;
+}
+    .grid-container{
+        margin: 0 auto;
+        width: 50%;
+    }
+}
