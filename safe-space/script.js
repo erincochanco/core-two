@@ -12,7 +12,7 @@ units.forEach(unit => {
 });
 
 function myFunction() {
-  let person = prompt("Name your piece");
+  let person = prompt("Entitle your art!");
   if (person != null) {
     document.getElementById("demo").innerHTML =
     "'"+ person + "'" + " 2022, text on screen";
