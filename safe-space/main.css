@@ -12,20 +12,50 @@ body{
     width: 80%;
     text-align: center;
     margin-top: 5%;
+    margin-bottom: 1%;
     margin-right: 10%;
     margin-left: 10%;
-    border: 1px solid #000;
 }
 
 .text{
     padding: .5%;
     font-family: "Monaco", monospace;
     font-style: normal;
-    font-size: 1.3em;
+    font-size: 1.5em;
+}
+
+.center{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    margin-top: 4%;
+}
+
+.top-frame{
+    position: absolute;
+    width: 1015px;
+    margin-left: 15%;
+}
+
+.left-frame{
+    position: absolute;
+    height: 440px;
+    margin-top: 4%;
+    margin-left: 15%;
+}
+
+.right-frame{
+    position: absolute;
+    height: 450px;
+    margin-top: 3%;
+    margin-left: 82%;
 }
 
 .grid-container{
     display: grid;
+    height: 35px;
+    width: 900px;
     grid-template-columns: repeat(25, 1fr);  
     margin-right: 10%;
     margin-left: 10%;
@@ -69,9 +99,17 @@ body{
 .footer{
     width: 80%;
     text-align: center;
+    margin-top: 3%;
     margin-right: 10%;
     margin-left: 10%;
-    border: 1px solid #000;
+}
+
+.button{
+    background-color: #000; 
+    font-family: "Monaco", monospace;
+    font-style: normal;
+    border: none;
+    color: white;
 }
 
 .text-2{
@@ -79,6 +117,10 @@ body{
     font-family: "Monaco", monospace;
     font-style: normal;
     font-size: 1em;
+}
+.demo{
+    font-family: "Monaco", monospace;
+    font-style: normal;
 }
 
 @keyframes fadeIn {
