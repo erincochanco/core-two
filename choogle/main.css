@@ -1,0 +1,86 @@
+.main-container{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    top: 40%;
+    left: 35%;
+    margin: auto;
+    text-align: center;
+}
+
+.logo{
+    font-family: neue-haas-grotesk-display, sans-serif;
+    font-style: normal;
+    font-size: 5em;
+    font-weight:700
+}
+.buttons{
+    margin-top: 5%;
+    justify-content: center;
+    display: flex;
+    width: 100%;
+    gap: 2em;
+    font-family: neue-haas-grotesk-display, sans-serif;
+    font-style: normal;
+
+}
+
+    .search{
+        width: 30%;
+        border: solid gray ;
+        font-family: neue-haas-grotesk-display, sans-serif;
+        font-style: normal;
+
+    }
+
+    .chingchong{
+         width: 30%;
+        border: solid gray;
+        font-family: neue-haas-grotesk-display, sans-serif;
+        font-style: normal;
+    }
+
+    .buttons:hover{
+        cursor: pointer;
+    }
+
+    a{
+        text-decoration: none;
+        color: black;
+    }
+
+    .blue{
+        color: rgb(45, 150, 255);
+    }
+    .red{
+        color: rgb(221, 75, 21);
+    }
+    .red-1{
+        color: rgb(155, 49, 11);
+    }
+    .red-2{
+        color: rgb(255, 53, 53);
+    }
+    .yellow{
+        color: rgb(255, 200, 0);
+    }
+    .green{
+        color: rgb(25, 107, 25);
+    }
+
+.searchbar{
+    padding: 2px;
+    width: 30em;
+    height: 2em;
+    color: gray;
+    border: solid gray;
+    border-radius: 25px;
+    font-family: neue-haas-grotesk-display, sans-serif;
+    font-style: normal;
+    text-align: center;
+}
+.search-text{
+    margin-top: 50%;
+}
