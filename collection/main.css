@@ -1,25 +1,25 @@
 html,
 body {
-  margin: 0;
-  padding: 0;
+    margin: 0;
+    padding: 0;
 }
 
-body{
-font-family: antique-olive, sans-serif;
-font-style: normal;
-font-weight: 300;
+body {
+    font-family: antique-olive, sans-serif;
+    font-style: normal;
+    font-weight: 300;
 }
 
-.homepage-container{
+.homepage-container {
     display: flex
 }
 
-.homepage{
+.homepage {
     position: absolute;
     width: 100%;
 }
 
-.welcome{
+.welcome {
     position: absolute;
     margin-top: 35%;
     margin-left: 17%;
@@ -31,25 +31,30 @@ font-weight: 300;
 }
 
 @keyframes animate-fade {
-    0% { opacity: 0; }
-    100% { opacity: 1; }
-  }
+    0% {
+        opacity: 0;
+    }
 
-  .background{
-    position: absolute;
-    width: 100vw;
+    100% {
+        opacity: 1;
+    }
 }
 
-.container{
+/* .background {
+    position: absolute;
+    width: 100vw;
+} */
+
+.container {
     margin-top: 100vh;
-    margin-left:auto ;
-    margin-right:auto ;
+    margin-left: auto;
+    margin-right: auto;
     width: 100%;
     max-width: 800px;
     padding: 20px;
 }
 
-.food{
+.food {
     margin-top: 180px;
     margin-left: 30px;
     display: flex;
@@ -61,7 +66,7 @@ font-weight: 300;
     overflow: scroll;
 }
 
-.elements{
+.elements {
     position: absolute;
     margin-top: 50px;
     margin-left: 300px;
@@ -75,19 +80,19 @@ font-weight: 300;
     border-radius: 2px;
     position: relative;
     text-align: center;
-  }
-
-.illus{
- width: 90px;
 }
-  
-h2{
+
+.illus {
+    width: 90px;
+}
+
+h2 {
     font-family: antique-olive, sans-serif;
     font-style: normal;
     font-weight: 700;
 }
 
-h3{
+h3 {
     font-family: antique-olive, sans-serif;
     font-style: normal;
     font-weight: 400;

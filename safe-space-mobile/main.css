@@ -11,7 +11,6 @@ body{
   @keyframes a {
     to {background-position:0 -200%}
   }
-}
 
 .grid-container:hover{
     cursor: pointer;
@@ -20,18 +19,17 @@ body{
 .header{
     width: 80%;
     text-align: center;
-    margin-top: 80%;
+    margin-top: 60%;
     margin-right: 10%;
     margin-left: 10%;
     margin-bottom: 10%;
-    border: 1px solid #000;
 }
 
 .text{
     padding: .5%;
     font-family: "Monaco", monospace;
     font-style: normal;
-    font-size: 1.3em;
+    font-size: 2em;
 }
 .demo{
     margin-right: 10%;
@@ -76,3 +74,17 @@ body{
     border: none;
     color: white;
 }
+
+@media only screen and (max-width:390px) {
+    body {
+    }
+  }
+
+  @media only screen and (min-width:500px) {
+
+    .header{
+        margin-top: 15%;
+        margin-right: 10%;
+        margin-left: 10%;
+    }
+  }

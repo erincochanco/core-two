@@ -1,45 +1,47 @@
+
 <html>
 
-<head>
-    <meta charset="UTF-8" />
-    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <link rel="stylesheet" href="main.css">
-    <link rel="stylesheet" href="https://use.typekit.net/lrv4dig.css">
-    <title>
-        Allergy Archive
-    </title>
-</head>
-<body>
-
-
-<div class="homepage-container">
-    <img src="archive-homepage_4.png" class="homepage">
-    <img src="welcome.png" class="welcome">
-</div>
-
-<div class="content-container">
-    <img src="background.png" class="background">
-    <div class="container">
-            <div class="elements">
-                <div class="dropdown-container">
-                  <label for="my-select">Filter Allergen:</label>
-                  <select name="my-select" id="select" onchange="handleDropdown()">
-                    <option selected value="all">All</option>
-                    <option value="Gluten">Gluten</option>
-                    <option value="Soy">Soy</option>
-                    <option value="Nuts">Nuts</option>
-                    <option value="Dairy">Dairy</option>
-                    <option value="Corn">Corn</option>
-                    <option value="Egg">Egg</option>
-                  </select>
-                </div>
-              </div>
-    <div class="food"></div>
-    </div>
-</div>
-
-    <script src="script.js"></script>
-</body>
-
-</html>
+    <head>
+        <meta charset="UTF-8" />
+        <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <link rel="stylesheet" href="main.css">
+        <link rel="stylesheet" href="https://use.typekit.net/lrv4dig.css">
+        <title>
+            Allergy Archive
+        </title>
+    </head>
+    
+    <body>
+    
+    
+        <!-- <div class="homepage-container">
+            <img src="archive-homepage_4.png" class="homepage">
+            <img src="welcome.png" class="welcome">
+        </div> -->
+    
+        <main class="content-container">
+            <!-- <div class="container">
+                <div class="elements">
+                    <div class="dropdown-container"> -->
+                        <label for="allergens">Filter Allergen:</label>
+                        <select id="allergens">
+                            <option selected value="all">All</option>
+                            <option value="gluten">Gluten</option>
+                            <option value="soy">Soy</option>
+                            <option value="nuts">Nuts</option>
+                            <option value="dairy">Dairy</option>
+                            <option value="corn">Corn</option>
+                            <option value="egg">Egg</option>
+                        </select>
+                    <!-- </div> -->
+                <!-- </div> -->
+                <div class="food"></div>
+            </div>
+        </main>
+    
+        <script src="script.js"></script>
+    
+    </body>
+    
+    </html>

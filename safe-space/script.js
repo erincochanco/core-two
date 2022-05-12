@@ -1,5 +1,5 @@
 const units = document.querySelectorAll('.grid-container > *'); // every child item in directly in all the grid containers
-const characters = ['.','|','&bsol;', '(', ')', '•', '-', '_',':','/','*','>','<',' ']; // array of possible character list in order to cycle through
+const characters = ['/','.','|','&bsol;', '(', ')', '-', '_',':','*',' ']; // array of possible character list in order to cycle through
 
 // for every HTML unit element...
 units.forEach(unit => {
