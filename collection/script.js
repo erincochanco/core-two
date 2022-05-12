@@ -70,15 +70,13 @@ fetch('https://api.airtable.com/v0/appiO928XGEGes4rb/foods', {
                     return filterValue === food.fields.allergensalt;
                     // return foods.filter === filterValue;
                 })
-                .forEach(food => {
-                    console.log(food);
+                .forEach(foods => {
+                    console.log(foods);
                     foodAirtable.innerHTML += `
           <div class="food">
-            <div class="foods">${(food.fields.food)}</div>
-             <img src="${food.fields.illustration[0].thumbnails.large.url}" class="illus"/>
-            <h3>${food.fields.allergens}</h3>  
-            <h3>${food.fields.frequency}</h3>
-            <h3>${food.fields.reaction}</h3>
+            <div class="foods">${(foods.fields.food)}</div>
+             <img src="${foods.fields.illustration[0].thumbnails.large.url}" class="illus"/>
+            <h3>${foods.fields.allergens}</h3>  
           </div>
       `;
                 });

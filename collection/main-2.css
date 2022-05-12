@@ -1,0 +1,68 @@
+html,
+body {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: antique-olive, sans-serif;
+    font-style: normal;
+    font-weight: 300;
+}
+
+
+.background {
+    position: absolute;
+    width: 100vw;
+}
+
+.container {
+    margin-left: auto;
+    margin-right: auto;
+    width: 100%;
+    max-width: 800px;
+    padding: 20px;
+}
+
+.food {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 40px;
+    max-width: 800px;
+    padding: 10px;
+    border-radius: 2px;
+    justify-content: center;
+    align-items: center;
+}
+
+.foods {
+    box-shadow: 0 4px 8px 0 hsla(300, 4%, 80%, 0.3);
+    background-color: white;
+    width: 200px;
+    padding: 10px;
+    border-radius: 2px;
+    position: relative;
+    text-align: center;
+}
+
+/* .elements {
+    position: absolute;
+    margin-top: 50px;
+    margin-left: 300px;
+} */
+
+.illus {
+    width: 90px;
+}
+
+h2 {
+    font-family: antique-olive, sans-serif;
+    font-style: normal;
+    font-weight: 700;
+}
+
+h3 {
+    font-family: antique-olive, sans-serif;
+    font-style: normal;
+    font-weight: 400;
+}
