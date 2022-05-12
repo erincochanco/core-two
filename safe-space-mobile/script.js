@@ -1,5 +1,5 @@
 const units = document.querySelectorAll('.grid-container > *'); // every child item in directly in all the grid containers
-const characters = ['.','|','&bsol;', '(', ')', '•', '-', '_','^','/',';','>','<','◡','੭','3']; // array of possible character list in order to cycle through
+const characters = ['.','&bsol;','/', '(', ')', '•', '-', '_','^',';','>','<','◡','੭','3']; // array of possible character list in order to cycle through
 
 // for every HTML unit element...
 units.forEach(unit => {
@@ -12,9 +12,9 @@ units.forEach(unit => {
 });
 
 function myFunction() {
-  let person = prompt("Please enter a name", "Anything but Karen");
+  let person = prompt("Say something!", "heyyy cutie");
   if (person != null) {
     document.getElementById("demo").innerHTML =
-    "Hey-o, my name is " + person + "!";
+    person;
   }
 }
