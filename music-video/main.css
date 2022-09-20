@@ -1,0 +1,21 @@
+body{
+  background-color: pink;
+}
+
+.frame{
+  display: flex;
+  width: 100vw;
+  height: 100vh;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+
+.one{
+  margin-left: 40%
+  width: 50vw;
+}
+
+.two{
+  margin-left: 40%
+  width: 100vw;
+}
